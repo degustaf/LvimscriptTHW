@@ -2,14 +2,22 @@
 set number
 
 " Chapter 3
+" See Chapter 5
 " Move current line down one line.
-map - ddp
+" map - ddp
 " Move current line up one line.
-map _ ddkP
+" map _ ddkP
 
 " Chapter 4
+" See Chapter 5
 " <c-u> in normal mode uppercases current word
-nmap <c-u> viwU
+" nmap <c-u> viwU
 " <c-u> in insert mode uppercases current word
 " imap <c-u> <esc>viwUi
-imap <c-u> <esc><c-u>i
+" imap <c-u> <esc><c-u>i
+
+" Chapter 5
+nnoremap - ddp
+nnoremap _ ddkP
+nnoremap <c-u> viwU
+inoremap <c-u> <esc>viwUi
