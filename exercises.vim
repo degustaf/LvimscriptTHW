@@ -55,3 +55,7 @@ nnoremap <Right> <Nop>
 inoremap <Right> <Nop>
 nnoremap <Left> <Nop>
 inoremap <Left> <Nop>
+
+" Chapter 12
+autocmd FileType python nnoremap <buffer> <localleader>c I#<esc>
+autocmd FileType clojure nnoremap <buffer> <localleader>c I;<esc>
