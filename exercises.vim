@@ -45,3 +45,13 @@ vnoremap <leader>" di"<esc>pa"<esc>
 vnoremap <leader>( di(<esc>pa)<esc>
 nnoremap <leader>H 0
 nnoremap <leader>L $
+
+" Chapter 10
+nnoremap <Up> <Nop>
+inoremap <Up> <Nop>
+nnoremap <Down> <Nop>
+inoremap <Down> <Nop>
+nnoremap <Right> <Nop>
+inoremap <Right> <Nop>
+nnoremap <Left> <Nop>
+inoremap <Left> <Nop>
