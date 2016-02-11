@@ -30,3 +30,8 @@ nnoremap <leader>- ddp
 nnoremap <leader>_ ddkP
 nnoremap <leader><c-u> viwU
 inoremap <leader><c-u> <esc>viwUi
+
+" Chapter 7
+nnoremap <leader>ev :split $MYVIMRC<cr>
+nnoremap <leader>ee :split $HOME/LvimscriptTHW/exercises.vim<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
