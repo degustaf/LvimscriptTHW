@@ -57,5 +57,22 @@ nnoremap <Left> <Nop>
 inoremap <Left> <Nop>
 
 " Chapter 12
-autocmd FileType python nnoremap <buffer> <localleader>c I#<esc>
-autocmd FileType clojure nnoremap <buffer> <localleader>c I;<esc>
+" See Chapter 14
+" autocmd FileType python nnoremap <buffer> <localleader>c I#<esc>
+" autocmd FileType clojure nnoremap <buffer> <localleader>c I;<esc>
+
+"Chapter 14
+augroup filetype_python
+    autocmd!
+    autocmd FileType python nnoremap <buffer> <localleader>c I#<esc>
+augroup END
+
+augroup filetype_clojure
+    autocmd!
+    autocmd FileType clojure nnoremap <buffer> <localleader>c I;<esc>
+augroup END
+
+augroup filetype_vim
+    autocmd!
+    autocmd FileType vim nnoremap <buffer> <localleader>c I"<esc>
+augroup END
