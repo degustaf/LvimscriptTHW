@@ -17,7 +17,16 @@ set number
 " imap <c-u> <esc><c-u>i
 
 " Chapter 5
-nnoremap - ddp
-nnoremap _ ddkP
-nnoremap <c-u> viwU
-inoremap <c-u> <esc>viwUi
+" See Chapter 6
+" nnoremap - ddp
+" nnoremap _ ddkP
+" nnoremap <c-u> viwU
+" inoremap <c-u> <esc>viwUi
+
+" Chapter 6
+let mapleader = "-"
+let maplocalleader = "\\"
+nnoremap <leader>- ddp
+nnoremap <leader>_ ddkP
+nnoremap <leader><c-u> viwU
+inoremap <leader><c-u> <esc>viwUi
