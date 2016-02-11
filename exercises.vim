@@ -35,3 +35,13 @@ inoremap <leader><c-u> <esc>viwUi
 nnoremap <leader>ev :split $MYVIMRC<cr>
 nnoremap <leader>ee :split $HOME/LvimscriptTHW/exercises.vim<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" Chapter 8
+
+" Chapter 9
+nnoremap <leader>" viw<esc>i"<esc>hbi"<esc>lel
+nnoremap <leader>' ea'<esc>hbi'<esc>lel
+vnoremap <leader>" di"<esc>pa"<esc>
+vnoremap <leader>( di(<esc>pa)<esc>
+nnoremap <leader>H 0
+nnoremap <leader>L $
